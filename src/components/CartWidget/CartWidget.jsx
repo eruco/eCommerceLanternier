@@ -1,8 +1,13 @@
-import React from 'react'
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartPlus }  from "@fortawesome/free-solid-svg-icons";
+
 
 function CartWidget() {
   return (
-    <div>CartWidget</div>
+    <div>   
+     <FontAwesomeIcon icon={ faCartPlus } /> 
+    </div>
   )
 }
 

@@ -21,10 +21,10 @@ function Item({ product }) {
         ♥
       </button>
       <div className="card-img">
-        <img src={product.thumbnail} alt="Product img" />
+        <img src={product.img} alt="Product img" />
       </div>
       <div className="card-detail">
-        <h2>{product.title}</h2>
+        <h2>{product.name}</h2>
         <p>{product.description}</p>
         <h4 className="priceTag">$ {product.price}</h4>
       </div>

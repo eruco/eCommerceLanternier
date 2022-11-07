@@ -6,13 +6,13 @@ import "./navbar.css";
 function NavBar() {
   return (
     <nav className="nav-menu">
-      <Link to="/">
-        <h3>Mi tienda</h3>
-      </Link>
 
-      <Link to="/category/smartphones">Smartphones</Link>
-      <Link to="/category/laptops">Laptops</Link>
-      <Link to="/category/fragrances">Fragancias</Link>
+      <Link to="/">
+        <img className="logo-img" alt="logo gamer" src="/logo.jpg"></img>
+      </Link>
+      <Link to="/category/monitor">Monitores</Link>
+      <Link to="/category/teclados">Teclados</Link>
+      <Link to="/category/mouses">Mouses</Link>
       <CartWidget />
     </nav>
   );

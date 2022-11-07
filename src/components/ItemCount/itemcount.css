@@ -1,8 +1,9 @@
 .itemcount_container{
-    border: solid thin rgb(174, 207, 239);
-    border-radius: 15px;
+    border: solid thin rgb(15, 97, 178);
+    border-radius: 20px;
     padding: 12px 25px;
     display: flex;
+    align-self:flex-start;
     flex-direction: column;
     width: 100%;
     margin: 10px auto;

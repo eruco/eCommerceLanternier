@@ -5,7 +5,7 @@
     width: 100%;
     margin: 0;  
     height: 90px;
-    background-color: rgb(233, 244, 75);
+    background-image: radial-gradient(#009FFD, #2A2A72);
     top: 0;
     margin-bottom: 45px;
   }
@@ -21,4 +21,10 @@
   a:hover{
     font-weight: 600;
     color:rgb(19, 19, 17)
+  }
+
+  .logo-img{
+        display: flex;
+        align-self: center;
+        size: 10px;
   }
